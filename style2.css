@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    /* display: flex; */
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    background: url(./imgs/background2.png)no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover; 
+}
+header {
+    position: absolute;
+    top: 0;
+    left: -45px;
+    width: 100%;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.textBox{
+    color: #fff;
+}
+header img{
+    width: 200px;
+}
+header .logo {
+    position: relative;
+    max-width: 80px;
+    }
+
+    header ul {
+     position: relative;
+     display: flex;
+    }
+    header ul li {
+        list-style: none;
+    }
+    header ul li a {
+        display: inline-block;
+        color:  gray;
+        font-weight: 400;
+        margin-left: 40px;
+        text-decoration: none;
+        font-weight: bold;
+        
+    }
+    header ul li a:hover {
+        display: inline-block;
+        color: #fff;
+        font-weight: 400;
+        margin-left: 40px;
+        text-decoration: none;
+         font-weight: bold;
+    }
+
+    .content {
+        position: relative;
+        width: 100%;
+        top: 200px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+    .content .textBox{
+        position: relative;
+        max-width: 600px;
+        margin: 50px;
+    }
+    .content .textBox h2 {
+        color: #333;
+        font-size: 4em;
+        line-height: 1.4em;
+        font-weight: 500;
+    }
+    .content .textBox h2 span {
+       color: #017143;
+       font-size: 1.2em;
+       font-weight: 900;
+    }
+    .content .textBox a {
+       display: inline-block;
+       margin-top: 20px;
+       padding: 8px 20px;
+       background: gray;
+       color: #fff;
+       font-style: bold;
+       font-weight: 400px;
+       letter-spacing: 1px;
+       text-decoration: none;
+    }
+    .content .textBox a:hover {
+      color: #000;
+      background-color: #fff;
+    }
+    
+    .content .imageBox {
+        width: 600px;
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 50px;
+        margin-top: 50px;
+    }
+    .thumb {
+        
+        position: absolute;
+        display: flex;
+        bottom: 10%;
+        left: 30px;
+        
+    }
+    .thumb li {
+        list-style: none;
+        margin: 0 20px;
+        cursor: pointer;
+        transition: .3s;
+    }
+    .thumb li:hover {
+        transform: translateY(-15px) ;
+    }
+    .thumb li img{
+        max-width: 900px;
+    }
+    .sci{
+        position: absolute;
+        top: 50%;
+        right: 30px;
+        transform: translatey(-50%);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .sci li {
+        list-style: none;
+    }
+    .sci li a{
+        display: inline-block;
+        margin: 5px 0;
+        transform: scale(0.6);
+        filter: invert(1);
+    }
+
+ 
+    
