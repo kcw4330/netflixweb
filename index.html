@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <div class="circle"> </div>
+        <header id="navigation">
+            <a href="#" class="logo">
+            <img src="./imgs/제목 없음-1.png" alt="">
+        </a>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">TV show</a></li>
+            <li><a href="#">Movies</a></li>
+            <li><a href="#">Lastest</a></li>
+            <li><a href="#">MyList</a></li>
+        </ul>
+        </header>
+        <div class="content">
+            <div class="textBox">
+            
+                    <img src="./imgs/logo_m.png" alt="">
+                <br>
+                <br>
+                <br>
+                <br>
+                <p>1명의 천재, 8명의 공범, 철저히 준비한 세기의 강도. 스페인 조폐국에서 인질극까지 벌인 이들은 과연 포위 경찰을 따돌리고 거액의 돈과 함께 
+                    달아날 수 있을까?<br></p>
+                    <br>
+                    <br>      
+                    <P>  주연: 우르술라 코르베로,알바로 모르테,이치아르 이투뇨<br>
+                    크리에이터: 알렉스 피나</p>
+            <a href="#">시청하기</a>
+            <a href="#">더 많은 정보</a>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h1>이번주 추천 영상</h1>
+            </div>
+            <div class="imageBox">
+                    
+                
+            </div>
+        </div>
+        <ul class="thumb">
+            <li><a href="index2.html"><img src="./imgs/M1.png" alt=""onclick="imgSlider('./imgs/background2.png');    changeCircleColor('#017143')"></a></li>
+            <li><a href="index3.html"><img src="./imgs/M2.png" alt=""onclick="imgSlider('./imgs/img2.png');
+                changeCircleColor('#eb7495')"></a></li>
+            <li><a href="index4.html"><img src="./imgs/m3.png" alt=""onclick="imgSlider('./imgs/img3.png');
+                changeCircleColor('#d752b1')"></a></li>
+                <li><a href="index5.html"><img src="./imgs/m4.png" alt=""onclick="imgSlider('./imgs/img3.png');
+                    changeCircleColor('#d752b1')"></a></li>
+        </ul>            
+        <ul class="sci">
+            <li><a href="#"><img src="./imgs/facebook.png" alt=""></a></li>
+            <li><a href="#"><img src="./imgs/twitter.png" alt=""></a></li>
+            <li><a href="#"><img src="./imgs/instagram.png" alt=""></a></li>
+        </ul>
+    </section>
+    <script>
+        function imgSlider(anything){
+            document.querySelector('.starbucks').src= anything;
+        }
+        function changeCircleColor(color) {
+            const circle = document.querySelector('.circle');
+            circle.style.background = color;
+        }
+    </script>
+</body>
+</html>
